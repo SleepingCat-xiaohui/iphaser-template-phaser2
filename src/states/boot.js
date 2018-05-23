@@ -11,7 +11,7 @@ export default class Boot extends Phaser.State {
     pet.animations.add('jump', null, 10, true).play()
 
     this.add.text(300, 200, `Hello World`, {
-      font: '20px microsoft yahei',
+      font: '20px Courier',
       fill: '#fff000',
     }).anchor.setTo(0.5)
   }
